@@ -1,2 +1,41 @@
 {
+  "name": "typed-registry/typed-registry",
+  "description": "Dependency-free typed facade over mixed registries/config sources for PHPStan-level codebases.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "phpstan",
+    "typed",
+    "registry",
+    "config",
+    "strict",
+    "static-analysis"
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0",
+    "phpstan/phpstan": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TypedRegistry\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TypedRegistry\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "suggest": {
+    "typed-registry/psl": "Optional adapter for shape/union types & coercion (future).",
+    "typed-registry/webmozart": "Optional adapter for assertion-based guards (future)."
+  }
 }
