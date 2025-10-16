@@ -19,7 +19,7 @@ Modern PHP codebases use strict types and static analysis (PHPStan, Psalm), but 
 ## Installation
 
 ```bash
-composer require typed-registry/typed-registry
+composer require alexkart/typed-registry
 ```
 
 Requires PHP 8.3 or later.
@@ -156,21 +156,23 @@ Return associative arrays with string keys:
 
 ## Usage Examples
 
-### Example 1: Wrap a Static Config Class
+### Example 1: Wrap Any Config System
 
 ```php
 use TypedRegistry\TypedRegistry;
 use TypedRegistry\Provider;
 
-final class LaravelConfigProvider implements Provider
+// Wrap your existing config library/registry
+final class SomeExternalLibraryConfigProvider implements Provider
 {
     public function get(string $key): mixed
     {
-        return config($key);
+        // Adapt any existing config/registry system
+        return \Some\Library\Config::get($key);
     }
 }
 
-$registry = new TypedRegistry(new LaravelConfigProvider());
+$registry = new TypedRegistry(new SomeExternalLibraryConfigProvider());
 $debug = $registry->getBool('app.debug');
 $hosts = $registry->getStringList('app.allowed_hosts');
 ```
@@ -272,8 +274,8 @@ composer phpstan
 ```
 
 **Quality Standards:**
-- PHPStan Level: Max (10)
-- Test Coverage: 100% (63 tests, 86 assertions)
+- PHPStan Level: Max (10) with strict rules + bleeding edge
+- Test Coverage: 100% (75 tests, 98 assertions)
 - PHP Version: ≥8.3
 - Dependencies: Zero (core package)
 
@@ -281,9 +283,8 @@ composer phpstan
 
 Future optional packages (not required for core usage):
 
-- **`typed-registry-psl`** - Shape/union types via PHP Standard Library Types
-- **`typed-registry-schema`** - Schema validation and DTO mapping
-- **`typed-registry-laravel`** - Laravel service provider and facades
+- **`alexkart/typed-registry-psl`** - Shape/union types via PHP Standard Library Types
+- **`alexkart/typed-registry-schema`** - Schema validation and DTO mapping
 
 ## Contributing
 
